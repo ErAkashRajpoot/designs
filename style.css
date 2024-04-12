@@ -1,0 +1,161 @@
+/*navbar */
+
+#top_nav{
+  background-color: #daac00 !important;
+  font-weight: 38px;
+  font-size: 28px;
+  padding: 0 8%;
+  padding-bottom: 5px;
+}
+
+#navbarSupportedContent ul{
+    padding-left: 2%;   
+}
+#navbarSupportedContent ul li{
+    padding: 0 1.8% !important;
+}
+
+#search-box{
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    left: 47px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+#search-btn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border : 0;
+    border-radius: 0;
+}
+#search-box::placeholder{
+    color: white;
+}
+
+@media only screen and (max-width: 990px){
+   #search-form{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+    left: -26px;
+   }
+
+   #top_nav{
+    padding-left: 3%;
+    padding-right: 3%;
+   }
+
+   #bannertext{
+    padding-top: 10px;
+   }
+}
+
+@media only screen and  (max-width: 500px){
+    #top_nav{
+        padding: 0;
+    }
+    
+    #search-form{
+       position: relative;
+       left: -33px;
+       
+    }
+    #banner{
+        margin-top: -50px;
+       }
+}
+
+/* banner */
+
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 20px;
+}
+
+#bannertext h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#bannertext{
+    margin-bottom: 20px;
+}
+
+#banner-img{
+    padding-top: 50px;
+}
+
+#banner-btn-1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+
+#banner-btn-2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 1820px) {
+
+    #bannertext h1{
+        font-size: 49px;
+    }
+}
+
+@media screen and (max-width:1294px){
+
+    #bannertext h1{
+        font-size: 40px;
+    }
+    
+
+}
+
+@media screen and (max-width:900px){
+
+    #bannertext h1{
+        font-size: 30px;
+    }
+    
+    #banner-img{
+        width: 350px;
+    }
+}
+
+/* service */
+
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#service-btn{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+
+#service-img{
+    padding: 5%;
+}
+
+#counter-section{
+    background-image: url("../images/4.jpg");
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+}
+
+.counter-icon{
+    
+    font-size: 70px;
+}
